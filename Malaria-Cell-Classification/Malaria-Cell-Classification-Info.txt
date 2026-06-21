@@ -1,0 +1,135 @@
+# ALTAYBIOAI PROJECT INFORMATION
+
+Project:
+Malaria Cell Classification With PyTorch
+
+Repository:
+AltayBioAI
+
+Description:
+This Project Demonstrates A Lightweight Convolutional Neural Network (CNN) For Malaria Cell Classification Using Microscopic Blood Cell Images.
+
+The Project Is Designed For Educational, Research, And Biomedical Artificial Intelligence Applications.
+
+---
+
+DATASET
+
+Name:
+Cell Images For Detecting Malaria
+
+Classes:
+
+* Parasitized
+* Uninfected
+
+Source:
+Kaggle Dataset
+
+---
+
+FILES INCLUDED
+
+Malaria-Cell-Classification-GC.ipynb
+Google Colab Version.
+
+Malaria-Cell-Classification-JN.ipynb
+Jupyter Notebook Version.
+
+Malaria-Cell-Classification.py
+Standalone Python Script Version.
+
+malaria_cnn.pth
+Trained Model Weights.
+
+Malaria-Cell-Classification-Info.txt
+Project Information File.
+
+Requirements.txt
+Required Python Libraries.
+
+Results.png
+Sample Image Of Model Results.
+
+---
+
+MODEL ARCHITECTURE
+
+The Model Uses A Lightweight Convolutional Neural Network.
+
+Layers:
+
+* Conv2D (32 Filters)
+
+* ReLU
+
+* MaxPooling
+
+* Conv2D (64 Filters)
+
+* ReLU
+
+* MaxPooling
+
+* Conv2D (128 Filters)
+
+* ReLU
+
+* MaxPooling
+
+* Fully Connected Layers
+
+* Output Layer
+
+---
+
+LIBRARIES
+
+* PyTorch
+* Torchvision
+* KaggleHub
+* NumPy
+* Matplotlib
+
+Optional:
+
+* TensorBoard
+* Albumentations
+
+---
+
+TRAINING
+
+Default Epochs: 2
+
+The Default Number Of Epochs Is Kept Low To Reduce Training Time And Make The Project Accessible For CPU And Google Colab Users.
+
+Increasing The Number Of Epochs May Improve The Final Accuracy.
+
+---
+
+Execution Status
+
+✓ Google Colab Version: Tested
+✓ Trained Model: Included
+✓ Jupyter Notebook Version: Provided
+✓ Python Script Version: Provided
+
+The Google Colab Version Was Used For Training And Validation.
+The Jupyter Notebook And Python Script Versions Are Included For Local Execution And Reproducibility.
+
+---
+
+DISCLAIMER
+
+This Project Is Intended For Educational And Research Purposes Only.
+
+The Model Is Not Intended For Clinical Diagnosis Or Medical Decision-Making.
+
+---
+
+AltayBioAI
+Medical AI, Computational Biology, And Deep Learning With PyTorch
+
+Thank You.
+
