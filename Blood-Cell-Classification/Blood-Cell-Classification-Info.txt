@@ -1,0 +1,72 @@
+Blood Cell Classification Using PyTorch And ResNet18
+
+Project:
+Blood Cell Classification
+
+Repository:
+AltayBioAI
+
+Description:
+This Project Uses ResNet18 To Classify Human Blood Cells Into Four Categories:
+
+- Eosinophil
+- Lymphocyte
+- Monocyte
+- Neutrophil
+
+Dataset:
+
+Blood Cells Dataset
+https://www.kaggle.com/datasets/paultimothymooney/blood-cells
+
+Technologies:
+
+- PyTorch
+- Torchvision
+- ResNet18
+- KaggleHub
+- Google Colab
+
+Repository Files:
+
+- Blood-Cell-Classification-GC.ipynb
+- Blood-Cell-Classification-JN.ipynb
+- Blood-Cell-Classification.py
+- Requirements.txt
+- Blood-Cell-Classification-Info.txt
+- Result Dataset.png
+- Result Prediction.png
+
+Release Asset:
+
+- blood_cell_resnet18.pth
+
+Training Configuration:
+
+- Epochs: 5
+- Training Time: Approximately 20 Minutes
+
+Results:
+
+Accuracy: 68.68%
+
+Increasing The Number Of Epochs May Improve Model Performance.
+
+Execution:
+
+The Google Colab Version Was Used For Training And Evaluation.
+
+The Jupyter Notebook And Python Script Versions Provide Equivalent Implementations.
+
+Model Distribution:
+
+The Trained Model Is Available Through GitHub Release Assets To Keep The Repository Lightweight.
+
+Disclaimer:
+
+This Project Is Intended For Educational And Research Purposes Only.
+
+Developed For AltayBioAI.
+
+Thank You.
+

@@ -1,0 +1,14 @@
+Library Installation:
+
+torch
+torchvision
+matplotlib
+numpy
+pillow
+kagglehub
+
+Run Code:
+
+python Blood-Cell-Classification.py
+
+Thank You.
