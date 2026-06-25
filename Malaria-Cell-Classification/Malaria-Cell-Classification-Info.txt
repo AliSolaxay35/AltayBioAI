@@ -1,135 +1,106 @@
-# ALTAYBIOAI PROJECT INFORMATION
-
-Project:
-Malaria Cell Classification With PyTorch
-
-Repository:
-AltayBioAI
+Malaria Cell Classification Using PyTorch
+AltayBioAI Project
 
 Description:
-This Project Demonstrates A Lightweight Convolutional Neural Network (CNN) For Malaria Cell Classification Using Microscopic Blood Cell Images.
 
-The Project Is Designed For Educational, Research, And Biomedical Artificial Intelligence Applications.
+This Project Uses A Lightweight Convolutional Neural Network (CNN) To Classify Microscopic Blood Cell Images Into Two Categories:
 
----
+- Parasitized
+- Uninfected
 
-DATASET
+Dataset:
 
-Name:
 Cell Images For Detecting Malaria
 
-Classes:
+Dataset Link:
 
-* Parasitized
-* Uninfected
+https://www.kaggle.com/datasets/iarunava/cell-images-for-detecting-malaria
 
-Source:
-Kaggle Dataset
+Framework:
 
----
+- PyTorch
+- Torchvision
 
-FILES INCLUDED
+Model:
 
-Malaria-Cell-Classification-GC.ipynb
-Google Colab Version.
+- Lightweight Convolutional Neural Network (CNN)
 
-Malaria-Cell-Classification-JN.ipynb
-Jupyter Notebook Version.
+Model Architecture:
 
-Malaria-Cell-Classification.py
-Standalone Python Script Version.
+- Conv2D (32 Filters)
+- ReLU
+- MaxPooling
+- Conv2D (64 Filters)
+- ReLU
+- MaxPooling
+- Conv2D (128 Filters)
+- ReLU
+- MaxPooling
+- Fully Connected Layers
+- Output Layer
 
-malaria_cnn.pth
-Trained Model Weights.
+Training Configuration:
 
-Malaria-Cell-Classification-Info.txt
-Project Information File.
+- Epochs: 2
+- Batch Size: 32
+- Image Size: 128 × 128
+- Optimizer: Adam
 
-Requirements.txt
-Required Python Libraries.
+Training Notes:
 
-Results.png
-Sample Image Of Model Results.
+The Default Number Of Epochs Is Kept Low To Reduce Training Time And Improve Accessibility For CPU And Google Colab Users.
 
----
+Increasing The Number Of Epochs May Improve Model Accuracy.
 
-MODEL ARCHITECTURE
+Training Results:
 
-The Model Uses A Lightweight Convolutional Neural Network.
+- Platform: Google Colab
 
-Layers:
+Included Files:
 
-* Conv2D (32 Filters)
+- Malaria-Cell-Classification-GC.ipynb
+- Malaria-Cell-Classification-JN.ipynb
+- Malaria-Cell-Classification.py
+- Malaria-Cell-Classification-Info.txt
+- Requirements.txt
+- Results.png
+- malaria_cnn.pth
 
-* ReLU
+Model File:
 
-* MaxPooling
+- malaria_cnn.pth
 
-* Conv2D (64 Filters)
+Requirements:
 
-* ReLU
+- torch
+- torchvision
+- matplotlib
+- numpy
+- pillow
+- kagglehub
 
-* MaxPooling
+Installation:
 
-* Conv2D (128 Filters)
+pip install -r Requirements.txt
 
-* ReLU
+Run:
 
-* MaxPooling
+python Malaria-Cell-Classification.py
 
-* Fully Connected Layers
+Notes:
 
-* Output Layer
+- Only The Google Colab Version Was Executed And Tested.
+- The Jupyter Notebook And Python Script Versions Are Provided For Compatibility.
+- Increasing The Number Of Epochs May Improve Model Accuracy.
+- The Trained Model File Is Included In The Project Folder.
+- The Model Is Also Available Through Release Assets.
 
----
-
-LIBRARIES
-
-* PyTorch
-* Torchvision
-* KaggleHub
-* NumPy
-* Matplotlib
-
-Optional:
-
-* TensorBoard
-* Albumentations
-
----
-
-TRAINING
-
-Default Epochs: 2
-
-The Default Number Of Epochs Is Kept Low To Reduce Training Time And Make The Project Accessible For CPU And Google Colab Users.
-
-Increasing The Number Of Epochs May Improve The Final Accuracy.
-
----
-
-Execution Status
-
-✓ Google Colab Version: Tested
-✓ Trained Model: Included
-✓ Jupyter Notebook Version: Provided
-✓ Python Script Version: Provided
-
-The Google Colab Version Was Used For Training And Validation.
-The Jupyter Notebook And Python Script Versions Are Included For Local Execution And Reproducibility.
-
----
-
-DISCLAIMER
+Disclaimer:
 
 This Project Is Intended For Educational And Research Purposes Only.
 
-The Model Is Not Intended For Clinical Diagnosis Or Medical Decision-Making.
+The Model, Results, And Experiments Provided Here Are Not Intended For Clinical Diagnosis, Medical Use, Or Healthcare Decision-Making.
 
----
-
-AltayBioAI
-Medical AI, Computational Biology, And Deep Learning With PyTorch
+Developed For AltayBioAI.
 
 Thank You.
-

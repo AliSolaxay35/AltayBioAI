@@ -1,12 +1,6 @@
-Library Installation:
-
 torch
 torchvision
-kagglehub
 matplotlib
-
-Run Code:
-
-python Malaria-Cell-Classification.py
-
-Thank You.
+numpy
+pillow
+kagglehub

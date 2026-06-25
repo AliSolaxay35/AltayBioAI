@@ -1,70 +1,94 @@
 Blood Cell Classification Using PyTorch And ResNet18
-
-Project:
-Blood Cell Classification
-
-Repository:
-AltayBioAI
+AltayBioAI Project
 
 Description:
-This Project Uses ResNet18 To Classify Human Blood Cells Into Four Categories:
 
-- Eosinophil
-- Lymphocyte
-- Monocyte
-- Neutrophil
+This Project Uses A ResNet18 Deep Learning Model To Classify Human Blood Cells Into Four Categories:
+
+- EOSINOPHIL
+- LYMPHOCYTE
+- MONOCYTE
+- NEUTROPHIL
 
 Dataset:
 
 Blood Cells Dataset
+
+Dataset Link:
+
 https://www.kaggle.com/datasets/paultimothymooney/blood-cells
 
-Technologies:
+Framework:
 
 - PyTorch
 - Torchvision
+
+Model:
+
 - ResNet18
-- KaggleHub
-- Google Colab
-
-Repository Files:
-
-- Blood-Cell-Classification-GC.ipynb
-- Blood-Cell-Classification-JN.ipynb
-- Blood-Cell-Classification.py
-- Requirements.txt
-- Blood-Cell-Classification-Info.txt
-- Result Dataset.png
-- Result Prediction.png
-
-Release Asset:
-
-- blood_cell_resnet18.pth
 
 Training Configuration:
 
 - Epochs: 5
+- Batch Size: 32
+- Image Size: 128 × 128
+- Learning Rate: 0.0001
+- Optimizer: Adam
+
+Training Results:
+
+- Final Accuracy: 68.68%
 - Training Time: Approximately 20 Minutes
+- Platform: Google Colab
 
-Results:
+Included Files:
 
-Accuracy: 68.68%
+- Blood-Cell-Classification-GC.ipynb
+- Blood-Cell-Classification-JN.ipynb
+- Blood-Cell-Classification.py
+- Blood-Cell-Classification-Info.txt
+- Requirements.txt
+- Result Dataset.png
+- Result Prediction.png
 
-Increasing The Number Of Epochs May Improve Model Performance.
+Model File:
 
-Execution:
+- blood_cell_resnet18.pth
 
-The Google Colab Version Was Used For Training And Evaluation.
+Model Size:
 
-The Jupyter Notebook And Python Script Versions Provide Equivalent Implementations.
+- Approximately 43 MB
 
-Model Distribution:
+Requirements:
 
-The Trained Model Is Available Through GitHub Release Assets To Keep The Repository Lightweight.
+- torch
+- torchvision
+- matplotlib
+- numpy
+- pillow
+- kagglehub
+
+Installation:
+
+pip install -r Requirements.txt
+
+Run:
+
+python Blood-Cell-Classification.py
+
+Notes:
+
+- Only The Google Colab Version Was Executed And Tested.
+- The Jupyter Notebook And Python Script Versions Are Provided For Compatibility.
+- Increasing The Number Of Epochs May Improve Model Accuracy.
+- The Trained Model File Is Not Included In The Repository.
+- The Model Is Available Through Release Assets.
 
 Disclaimer:
 
 This Project Is Intended For Educational And Research Purposes Only.
+
+The Model, Results, And Experiments Provided Here Are Not Intended For Clinical Diagnosis, Medical Use, Or Healthcare Decision-Making.
 
 Developed For AltayBioAI.
 
