@@ -1,0 +1,93 @@
+Pneumonia X-Ray Classification Using PyTorch And ResNet18
+AltayBioAI Project
+
+Description:
+
+This Project Uses A ResNet18 Deep Learning Model To Classify Chest X-Ray Images Into Two Categories:
+
+- NORMAL
+- PNEUMONIA
+
+Dataset:
+
+Chest X-Ray Images (Pneumonia)
+
+Dataset Link:
+
+https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia
+
+Framework:
+
+- PyTorch
+- Torchvision
+
+Model:
+
+- ResNet18
+
+Training Configuration:
+
+- Epochs: 5
+- Batch Size: 32
+- Image Size: 128 × 128
+- Learning Rate: 0.0001
+- Optimizer: Adam
+
+Training Results:
+
+- Final Accuracy: 77.88%
+- Training Time: Approximately 50 Minutes
+- Platform: Google Colab
+
+Included Files:
+
+- Pneumonia-XRay-Classification-GC.ipynb
+- Pneumonia-XRay-Classification-JN.ipynb
+- Pneumonia-XRay-Classification.py
+- Pneumonia-XRay-Classification-Info.txt
+- Requirements.txt
+- Result Dataset.png
+- Result Prediction.png
+
+Model File:
+
+- pneumonia_resnet18.pth
+
+Model Size:
+
+- Approximately 43 MB
+
+Requirements:
+
+- torch
+- torchvision
+- matplotlib
+- numpy
+- pillow
+- kagglehub
+
+Installation:
+
+pip install -r Requirements.txt
+
+Run:
+
+python Pneumonia-XRay-Classification.py
+
+Notes:
+
+- Only The Google Colab Version Was Executed And Tested.
+- The Jupyter Notebook And Python Script Versions Are Provided For Compatibility.
+- Increasing The Number Of Epochs May Improve Model Accuracy.
+- The Trained Model File Is Not Included In The Repository.
+- The Model Is Available Through Release Assets.
+
+Disclaimer:
+
+This Project Is Intended For Educational And Research Purposes Only.
+
+The Model, Results, And Experiments Provided Here Are Not Intended For Clinical Diagnosis, Medical Use, Or Healthcare Decision-Making.
+
+Developed For AltayBioAI.
+
+Thank You.
